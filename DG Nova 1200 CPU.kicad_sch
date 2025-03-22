@@ -54047,7 +54047,7 @@
 			)
 		)
 	)
-	(global_label "~{READ 1}"
+	(global_label "~{READ1}"
 		(shape input)
 		(at 124.46 45.72 180)
 		(fields_autoplaced yes)
@@ -54059,7 +54059,7 @@
 		)
 		(uuid "a01d4388-683b-40b7-957b-fc77d00715a6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.0921 45.6406 0)
+			(at 115.4877 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
