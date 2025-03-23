@@ -24275,6 +24275,16 @@
 	)
 	(wire
 		(pts
+			(xy 340.36 25.4) (xy 341.63 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "141c248c-3f47-421f-b1dc-fa428ee8b975")
+	)
+	(wire
+		(pts
 			(xy 229.87 243.84) (xy 231.14 243.84)
 		)
 		(stroke
@@ -34225,6 +34235,16 @@
 	)
 	(wire
 		(pts
+			(xy 336.55 22.86) (xy 341.63 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bb23cd8-6cef-4187-b70e-a58ae212fba2")
+	)
+	(wire
+		(pts
 			(xy 596.9 190.5) (xy 598.17 190.5)
 		)
 		(stroke
@@ -39375,16 +39395,6 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 25.4) (xy 341.63 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbe5cc65-bacb-420a-82f6-600586b3769e")
-	)
-	(wire
-		(pts
 			(xy 840.74 266.7) (xy 839.47 266.7)
 		)
 		(stroke
@@ -40842,16 +40852,6 @@
 			(type default)
 		)
 		(uuid "de089da8-c61f-42ee-b7ee-4ce096746f4c")
-	)
-	(wire
-		(pts
-			(xy 340.36 22.86) (xy 341.63 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de0b5a49-d1b0-4533-aa87-fa21d4df70e5")
 	)
 	(wire
 		(pts
@@ -51410,16 +51410,6 @@
 		(uuid "fa096fbe-450e-4959-aa60-54b2c0e5d6a5")
 	)
 	(label "~{KEY}"
-		(at 340.36 22.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fa1ac4b0-11c3-4ee9-b2b2-da0706451c60")
-	)
-	(label "~{KEY}"
 		(at 516.89 83.82 180)
 		(effects
 			(font
@@ -51458,6 +51448,16 @@
 			(justify left bottom)
 		)
 		(uuid "fbe60487-4610-4e3e-a43b-f925d5623358")
+	)
+	(label "~{KEY}"
+		(at 340.36 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fc147f81-2aad-4c60-8c83-f1c203fa6e43")
 	)
 	(label "MTG2"
 		(at 165.1 34.29 0)
@@ -53101,28 +53101,6 @@
 			)
 		)
 	)
-	(global_label "CLK FLOP"
-		(shape input)
-		(at 340.36 25.4 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5e6b0083-7936-4912-9194-d4e4c805dcc8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 328.694 25.3206 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "~{READ IO}"
 		(shape output)
 		(at 381 204.47 0)
@@ -53537,6 +53515,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CLK FLOP"
+		(shape input)
+		(at 336.55 22.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "818c6fed-e2e0-41fe-9953-14a421817060")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 324.884 22.7806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -98968,6 +98968,7 @@
 		(at 349.25 21.59 0)
 		(mirror x)
 		(unit 2)
+		(convert 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
