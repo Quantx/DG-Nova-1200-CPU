@@ -45929,7 +45929,7 @@
 		)
 		(uuid "453e98c7-0c9c-4800-b679-947c58ad2665")
 	)
-	(label "~{MBC9}"
+	(label "~{MBC8}"
 		(at 659.13 142.24 180)
 		(effects
 			(font
@@ -47819,7 +47819,7 @@
 		)
 		(uuid "877855df-0cbd-446f-87a9-229c7fd119e7")
 	)
-	(label "D+ESET+~{TS3}"
+	(label "(D+E SET)+~{TS3}"
 		(at 93.98 177.8 270)
 		(effects
 			(font
